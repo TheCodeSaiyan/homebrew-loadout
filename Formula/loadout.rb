@@ -3,30 +3,30 @@
 class Loadout < Formula
   desc "Agent launcher that composes project context from a central workspace"
   homepage "https://github.com/ntatschner/loadout-cli"
-  version "0.22.2"
+  version "0.23.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.22.2/loadout-0.22.2-osx-arm64.tar.gz"
-      sha256 "22ad4c79bd260240231bc1beb8dccf42f2744827b792200b0bd69284d712849d"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.23.0/loadout-0.23.0-osx-arm64.tar.gz"
+      sha256 "d86dfdab590e32f1ef84f829ffe91690251c970c4d3f300d38583f8f1fb96262"
     end
 
     on_intel do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.22.2/loadout-0.22.2-osx-x64.tar.gz"
-      sha256 "b0bc204ba1c2d4b642bdb2507fcc9222a9408335b46201b654eef3e8d8676e3a"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.23.0/loadout-0.23.0-osx-x64.tar.gz"
+      sha256 "0e9ef7356e8b33a736a9d0adfb294865b51c9d5c7de021d67baf801a139fbd1a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.22.2/loadout-0.22.2-linux-arm64.tar.gz"
-      sha256 "d7323c70bcf0346fbf0c0c35df8d95ffcf1412afe326745de2f83f9f429785a6"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.23.0/loadout-0.23.0-linux-arm64.tar.gz"
+      sha256 "2cfa740ad49cf08d27b60645d76e98588214e6acafc84cce5793e176b700f457"
     end
 
     on_intel do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.22.2/loadout-0.22.2-linux-x64.tar.gz"
-      sha256 "59c8da2e7b2e1320e46e6b8e7bba659418dcc8410cbbe55b15394bef5e46a977"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.23.0/loadout-0.23.0-linux-x64.tar.gz"
+      sha256 "326ee0553f0859d7875d89375ca29a197c80b35cd3d036c438156d1fe46eefa3"
     end
   end
 
