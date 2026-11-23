@@ -3,30 +3,30 @@
 class Loadout < Formula
   desc "Workbench for coding agents: what they're told, know, touch and spend"
   homepage "https://github.com/ntatschner/loadout-cli"
-  version "0.122.0"
+  version "0.123.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.122.0/loadout-0.122.0-osx-arm64.tar.gz"
-      sha256 "0b26f4290c4662b112c53ed4d1f48feb7380cc79192299c49433835b4a5c106a"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.123.0/loadout-0.123.0-osx-arm64.tar.gz"
+      sha256 "fe4569ed923c72a3ce6e3924ed7ab59f79a81cc0d6cc940e22f404d9df80ad02"
     end
 
     on_intel do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.122.0/loadout-0.122.0-osx-x64.tar.gz"
-      sha256 "c6c6cf9e7c82e6751aac7d757fb10050472aa926bad62f49e71a4b29895a5431"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.123.0/loadout-0.123.0-osx-x64.tar.gz"
+      sha256 "40e91255274564a45b29e8e5afd427fbec067003898b46ca89321e614d68a50f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.122.0/loadout-0.122.0-linux-arm64.tar.gz"
-      sha256 "9ac36748aef929054f17ef4f657005ceef91d8ea36f13afcc4227435a87c2963"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.123.0/loadout-0.123.0-linux-arm64.tar.gz"
+      sha256 "354fc248879aeea549bd0abfe10fdf96acfde3bd5abba0e5a9f55b0b696a9376"
     end
 
     on_intel do
-      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.122.0/loadout-0.122.0-linux-x64.tar.gz"
-      sha256 "175a2d6eae014f9c750f3b921608febcb10efca986e03554cdf5684fea2254f0"
+      url "https://github.com/ntatschner/loadout-cli/releases/download/v0.123.0/loadout-0.123.0-linux-x64.tar.gz"
+      sha256 "7abcc2fe7b1f84880a2c9e73e6689fee4900a6973569cc8a0d745fdbc508a074"
     end
   end
 
